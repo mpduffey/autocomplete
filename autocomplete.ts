@@ -2,7 +2,7 @@ import {Directive, Input, ElementRef, AfterContentInit, ChangeDetectionStrategy}
 
 @Directive({
 	selector:					'[autocomplete]',
-	changeDetection:	ChangeDetectionStrategy.Detached
+	changeDetection:	ChangeDetectionStrategy.OnPush
 })
 
 export class Autocomplete implements AfterContentInit {

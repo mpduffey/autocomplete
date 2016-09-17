@@ -23,7 +23,7 @@ var Autocomplete = (function () {
     Autocomplete = __decorate([
         core_1.Directive({
             selector: '[autocomplete]',
-            changeDetection: core_1.ChangeDetectionStrategy.Detached
+            changeDetection: core_1.ChangeDetectionStrategy.OnPush
         }), 
         __metadata('design:paramtypes', [core_1.ElementRef])
     ], Autocomplete);
